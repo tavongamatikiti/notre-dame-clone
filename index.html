@@ -2,7 +2,7 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <link rel="icon" type="image/svg+xml" href="./src/assets/favicon.ico" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link href="./src/style.css" rel="stylesheet" />
     <title>University of Notre Dame</title>
@@ -358,7 +358,9 @@
     <section class="bg-[#002B5C] py-16 px-4 md:px-8 lg:px-16">
       <div class="max-w-7xl mx-auto space-y-8">
         <div class="flex flex-col md:flex-row">
-          <picture class="w-full md:w-1/2 aspect-[400/233] md:-ml-8 lg:-ml-16">
+          <picture
+            class="w-full md:w-1/2 aspect-[400/233] md:-ml-8 lg:-ml-16 -left-3"
+          >
             <source
               srcset="
                 ./src/assets/pillar-research-400.avif   400w,
@@ -501,6 +503,175 @@
         </div>
       </div>
     </section>
+
+    <!--   Notre Dame At Work-->
+    <section class="flex flex-col px-5 lg:px-20 gap-20 overflow-hidden">
+      <div class="flex flex-col lg:flex-row lg:justify-between">
+        <div class="flex flex-col gap-5 self-center px-5">
+          <p class="uppercase text-[#555555]">University News</p>
+          <h2 class="text-[#0C2340] text-[44px] font-bold">
+            Notre Dame At Work
+          </h2>
+          <div class="w-20 h-2 bg-[#AE9142]"></div>
+        </div>
+        <a
+          href="#"
+          class="flex lg:self-end text-[#0C2340] p-5 items-center gap-2"
+        >
+          View all news
+          <i class="fa-solid fa-chevron-right text-[#AE9142] text-sm"></i>
+        </a>
+      </div>
+
+      <div class="flex flex-col lg:flex-row relative">
+        <img
+          src="https://news.nd.edu/assets/604955/800x/globering_2025.jpg"
+          alt="img"
+          class="w-full lg:w-auto lg:z-1 object-cover"
+        />
+        <div
+          class="flex flex-col gap-5 p-5 bg-white/90 lg:bg-slate-100 lg:py-10 lg:absolute lg:w-[70%] lg:h-[80%] lg:top-[-30px] lg:right-0 lg:justify-end shadow-md"
+        >
+          <div class="lg:w-[500px] lg:px-20 gap-5 lg:translate-x-90">
+            <p class="uppercase text-[#555555]">International</p>
+            <h2 class="font-medium text-3xl lg:w-[450px] text-[#0C2340]">
+              University of Notre Dame wins award for excellence in campus
+              internationalization
+            </h2>
+            <a
+              href="#"
+              class="flex lg:self-end text-[#0C2340] p-5 items-center gap-2 hover:text-[#AE9142]"
+            >
+              Read Article
+              <i class="fa-solid fa-chevron-right text-[#AE9142] text-sm"></i>
+            </a>
+          </div>
+        </div>
+      </div>
+
+      <div class="flex flex-col gap-10 lg:flex-row-reverse">
+        <div
+          class="flex flex-col gap-5 lg:flex-row lg:items-start bg-white shadow-md rounded-lg overflow-hidden"
+        >
+          <div class="w-full lg:w-[40%] flex-shrink-0">
+            <img
+              src="https://news.nd.edu/assets/604183/800x/mc_mcob_banner.jpg"
+              alt="img"
+              class="w-full h-auto object-cover aspect-square"
+            />
+          </div>
+          <div class="flex flex-col gap-5 p-5">
+            <p class="uppercase text-[#555555]">Latest News</p>
+            <h2 class="font-medium text-2xl text-[#0C2340]">
+              ND Ethics Week explores business and sustainability
+            </h2>
+          </div>
+        </div>
+
+        <div class="flex flex-col gap-5 lg:w-[50%]">
+          <div class="flex flex-col gap-5 p-5 bg-white shadow-md rounded-lg">
+            <p class="uppercase text-[#555555]">Community News</p>
+            <h2 class="font-medium text-2xl text-[#0C2340]">
+              Notre Dame partners with community organizations for Walk the Walk
+              Week service project
+            </h2>
+          </div>
+
+          <div class="flex flex-col gap-5 p-5 bg-white shadow-md rounded-lg">
+            <p class="uppercase text-[#555555]">Global</p>
+            <h2 class="font-medium text-2xl text-[#0C2340]">
+              Physicist Laura Fields granted a Presidential Early Career Award
+            </h2>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!--    Notre Dame In Focus-->
+    <section class="py-16 px-4 md:px-8 lg:px-16">
+      <div class="max-w-7xl mx-auto space-y-8">
+        <p class="text-black uppercase font-light text-sm mb-2">Global</p>
+        <div class="flex flex-col justify-between md:flex-row">
+          <h1
+            class="text-4xl font-bold mb-4 relative after:content-[''] after:block after:w-[50px] after:h-1 after:bg-[#AE9142] after:mt-3 after:mb-6"
+          >
+            Notre Dame At Work
+          </h1>
+          <p class="text-black uppercase font-light text-sm mb-2">Global</p>
+        </div>
+        <div class="grid gap-5 grid-cols-1 md:grid-cols-1 lg:grid-cols-3">
+          <article
+            class="flex flex-col md:flex-row lg:flex-col hover:bg-gray-300 transition-colors"
+          >
+            <div class="w-full md:w-1/3 lg:w-full flex-shrink-0">
+              <img
+                src="./src/assets/2025-sampoorna-800.webp"
+                alt="image"
+                class="w-full h-full object-cover aspect-square"
+              />
+            </div>
+            <div class="p-4 w-full md:w-2/3 lg:w-full">
+              <p class="text-sm mb-2">Global</p>
+              <h3 class="text-xl font-semibold mb-2">
+                <a href="/stories/empowering-through-education/"
+                  >Empowering through education</a
+                >
+              </h3>
+              <p class="text-gray-600">
+                A pathway out of poverty for children in India
+              </p>
+            </div>
+          </article>
+
+          <article
+            class="flex flex-col md:flex-row lg:flex-col hover:bg-gray-300 transition-colors"
+          >
+            <div class="w-full md:w-1/3 lg:w-full flex-shrink-0">
+              <img
+                src="./src/assets/2025-sampoorna-800.webp"
+                alt="image"
+                class="w-full h-full object-cover aspect-square"
+              />
+            </div>
+            <div class="p-4 w-full md:w-2/3 lg:w-full">
+              <p class="text-sm mb-2">Global</p>
+              <h3 class="text-xl font-semibold mb-2">
+                <a href="/stories/empowering-through-education/"
+                  >Empowering through education</a
+                >
+              </h3>
+              <p class="text-gray-600">
+                A pathway out of poverty for children in India
+              </p>
+            </div>
+          </article>
+
+          <article
+            class="flex flex-col md:flex-row lg:flex-col hover:bg-gray-300 transition-colors"
+          >
+            <div class="w-full md:w-1/3 lg:w-full flex-shrink-0">
+              <img
+                src="./src/assets/2025-sampoorna-800.webp"
+                alt="image"
+                class="w-full h-full object-cover aspect-square"
+              />
+            </div>
+            <div class="p-4 w-full md:w-2/3 lg:w-full">
+              <p class="text-sm mb-2">Global</p>
+              <h3 class="text-xl font-semibold mb-2">
+                <a href="/stories/empowering-through-education/"
+                  >Empowering through education</a
+                >
+              </h3>
+              <p class="text-gray-600">
+                A pathway out of poverty for children in India
+              </p>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
     <script type="module" src="/src/main.js"></script>
   </body>
 </html>
